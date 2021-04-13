@@ -7,11 +7,7 @@ export default () => {
     return (
         <BrowserRouter/*  history={browserHistory} */>
             <Switch>
-                {/*  <Route path='/' exact render={() => (
-                    <AccountContainer name="Mehmet" />
-                )} /> */}
                 <Route path='/' exact component={RoverContainer} />
-            
             </Switch>
         </BrowserRouter>
     )

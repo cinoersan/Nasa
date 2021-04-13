@@ -1,12 +1,11 @@
 .plateau {
     width: auto;
-
+    margin: auto;
     &__table {
         margin: auto;
         border: 1px dotted #000;
         border-bottom: none;
     }
-    margin: auto;
     &__column {
         display: inline-block;
         width: 3rem;
