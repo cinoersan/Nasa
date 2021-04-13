@@ -1,12 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
 using Nasa.Business.Services.Commands;
 using Nasa.Business.Services.FileHandlers;
-using Nasa.Model.Common;
 using Nasa.Model.Movements;
 
 namespace Nasa.WebApi.Controllers

@@ -85,7 +85,7 @@ module.exports = {
       template: './src/index.html'
     }),
     new MiniCssExtractPlugin({
-      filename: 'css/bundle.[hash].css'
+      filename: 'bundle.[hash].css'
     }),
     new CleanWebpackPlugin({
       cleanOnceBeforeBuildPatterns: ['**/*', '!img/**', '!fonts/**'],
